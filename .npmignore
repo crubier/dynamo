@@ -6,7 +6,7 @@ Gruntfile..coffee
 Gruntfile.js
 
 src/
-/out/bin/
+/out/frontend/
 /out/docs/
 /out/test/
 
