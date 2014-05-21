@@ -121,18 +121,6 @@ module.exports = (grunt)->
       coffeeData.src = files
       grunt.config ['coffee', target], coffeeData
 
-    # sync
-    # console.log grunt.config ['sync',target]
-    # mocha.suite.on 'pre-require', (context, file)->
-    #   require.uncache(file)
-
-
-  # grunt.loadNpmTasks 'grunt-contrib-coffee'
-  # grunt.loadNpmTasks 'grunt-coffeeify'
-  # grunt.loadNpmTasks 'grunt-browserify'
-  # grunt.loadNpmTasks 'grunt-contrib-uglify'
-  # grunt.loadNpmTasks 'grunt-contrib-copy'
-
   # tasks.
   grunt.registerTask 'compile', [
     'coffeelint'
