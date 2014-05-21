@@ -1,0 +1,41 @@
+{
+  "name": "dynamo",
+  "version": "0.0.0",
+  "main": "lib/dynamo.js",
+  "description": "Dynamo by VL, awesome",
+  "homepage": "https://github.com/crubier/dynamo",
+  "bugs": "https://github.com/crubier/dynamo/issues",
+  "author": {
+    "name": "Vincent Lecrubier",
+    "email": "vincent.lecrubier@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crubier/dynamo"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "browserify": "^4.1.5",
+    "coffeeify": "^0.6.0",
+    "grunt": "~0.4.2",
+    "grunt-browserify": "^2.1.0",
+    "grunt-coffeeify": "^0.1.3",
+    "grunt-coffeelint": "~0.0.8",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-sync": "0.0.7",
+    "matchdep": "~0.3.0",
+    "mocha-cakes": "~0.9.0",
+    "require-uncache": "0.0.2",
+    "should": "~3.1.2"
+  }
+}
