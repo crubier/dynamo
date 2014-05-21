@@ -82,7 +82,7 @@ module.exports = (grunt)->
         tasks: ['coffeelint:backend', 'coffee:backend', 'mochaTest']
       lib:
         files: ['src/lib/**/*.coffee']
-        tasks: ['coffeelint:lib', 'coffee:lib', 'mochaTest']
+        tasks: ['coffeelint:lib', 'coffee:lib','browserify', 'mochaTest']
       test:
         files: ['src/test/**/*.coffee']
         tasks: ['coffeelint:test', 'coffee:test', 'mochaTest']
